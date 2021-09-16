@@ -1,7 +1,5 @@
-echo "Echo!"
-
-INPUTRC="/home/ubuntu/.inputrc"
-BASHRC="/home/ubuntu/.bashrc"
+INPUTRC="/home/$USER/.inputrc"
+BASHRC="/home/$USER/.bashrc"
 if [ ! -f $INPUTRC ]; then
     echo "Creating .input rc and setting up reverse history search"
     touch $INPUTRC
